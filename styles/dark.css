@@ -24,3 +24,7 @@
   --footer-shadow-color: var(--rose, #FF0070);
 }
 
+.theme-dark .rec-label {
+  display: flex;
+}
+
