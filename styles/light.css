@@ -1,28 +1,17 @@
-
 :root.theme-light {
-  --light-pink:  #FFF1F7;
-  --dark-grey: #353430;
-  --bright-pink: #FFC2E6;
-  --dark-pink: #FF8DCB;
-  --grey: rgba(50, 49, 45, 0.4);
-  --main-font: 'IBM Plex mono';
-  --main-bg-color: var(--light-pink, #FFF1F7);
+  --main-bg-color: var(--light-pink, #fff1f7);
   --main-text-color: var(--dark-grey, #353430);
-  --text-shadow: var(--dark-pink, #FF8DCB);
+  --text-shadow: var(--dark-pink, #ff8dcb);
   --bg-image: url(../images/cover-image-light.png);
-  --h1-text-color: var(--bright-pink, #FFC2E6);
-  --header-shadow-color: var(--dark-pink, #FF8DCB);
-  --h2-text-color: var(--dark-grey, #353430);
-  --h3-text-color: var(--dark-grey, #353430);
-  --h3-bg-color: var(--dark-pink, #FF8DCB);
-  --h4-text-color: var(--dark-grey, #353430);
-  --h4-bg-color: var(--dark-pink, #FF8DCB);
-  --h5-text-color: var(--bright-pink, #FFC2E6);
+  --page-title-shadow-color: var(--dark-pink, #ff8dcb);
+  --section-title-color: var(--dark-grey, #353430);
+  --title-decor-color: var(--dark-grey, #353430);
+  --title-decor-bg-color: var(--dark-pink, #ff8dcb);
   --button-border-color: var(--dark-grey, #353430);
   --button-text-color: var(--dark-grey, #353430);
   --button-outline-color: var(--grey, rgba(50, 49, 45, 0.4));
   --decorated-zone-color: var(--dark-grey, #353430);
-  --footer-shadow-color: var(--dark-pink, #FF8DCB);
+  --decorated-zone-title-color: var(--bright-pink, #ffc2e6);
 }
 
 .theme-light .rec-label {
@@ -31,29 +20,19 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --light-pink:  #FFF1F7;
-    --dark-grey: #353430;
-    --bright-pink: #FFC2E6;
-    --dark-pink: #FF8DCB;
-    --grey: rgba(50, 49, 45, 0.4);
-    --main-font: 'IBM Plex mono';
-    --main-bg-color: var(--light-pink, #FFF1F7);
+    --main-bg-color: var(--light-pink, #fff1f7);
     --main-text-color: var(--dark-grey, #353430);
-    --text-shadow: var(--dark-pink, #FF8DCB);
+    --text-shadow: var(--dark-pink, #ff8dcb);
     --bg-image: url(../images/cover-image-light.png);
-    --h1-text-color: var(--bright-pink, #FFC2E6);
-    --header-shadow-color: var(--dark-pink, #FF8DCB);
-    --h2-text-color: var(--dark-grey, #353430);
-    --h3-text-color: var(--dark-grey, #353430);
-    --h3-bg-color: var(--dark-pink, #FF8DCB);
-    --h4-text-color: var(--dark-grey, #353430);
-    --h4-bg-color: var(--dark-pink, #FF8DCB);
-    --h5-text-color: var(--bright-pink, #FFC2E6);
+    --page-title-shadow-color: var(--dark-pink, #ff8dcb);
+    --section-title-color: var(--dark-grey, #353430);
+    --title-decor-color: var(--dark-grey, #353430);
+    --title-decor-bg-color: var(--dark-pink, #ff8dcb);
     --button-border-color: var(--dark-grey, #353430);
     --button-text-color: var(--dark-grey, #353430);
     --button-outline-color: var(--grey, rgba(50, 49, 45, 0.4));
     --decorated-zone-color: var(--dark-grey, #353430);
-    --footer-shadow-color: var(--dark-pink, #FF8DCB);
+    --decorated-zone-title-color: var(--bright-pink, #ffc2e6);
   }
 
   .rec-label {
